@@ -34,8 +34,10 @@ JWT_SECRET=write-long-secret-text
 
 
 **Client Side**
+
 For Firefox:
 1. Install the [browser extension](https://github.com/AyazOzk/Sendy/releases/tag/publish) from ```about:addons``` with ```install from file```
+   
 For Android:
 
 ## Installation
