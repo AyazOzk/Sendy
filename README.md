@@ -12,7 +12,7 @@ Cross-device link chat: Send links to your own server with one click, see them i
 - **Effortless Link Sharing:** Share links seamlessly with just one click.
 - **Server-Side Thumbnails:** Automatically fetches and securely stores cover images and metadata for your shared links.
 - **Import & Export:** Easily backup your entire chat history (including images) to a `.zip` file and restore it anywhere.
-- **Device Support:** Comes with a fully compatible browser extension for Firefox. & Android support.
+- **Device Support:** Comes with a fully compatible browser extension for Firefox. & Android support (not just firefox mobile).
 - **The Perfect Opera Flow Alternative:** Enjoy the exact same seamless experience as Opera's "My Flow", but with 100% privacy and full control over your own self-hosted data.
 
 
@@ -22,7 +22,15 @@ Cross-device link chat: Send links to your own server with one click, see them i
 ## How to Install?
 
 **Server Side**
-Download ```backends``` file.
+1. Download ```backend``` file.
+2. Unzip in your server, then create a new ```.env``` file. Fill it with ```.env.example``` and edit.
+[b].env.example:[/b]
+[code]
+PORT=4000
+JWT_SECRET=write-long-secret-text
+[/code]
+
+
 
 **Client Side**
 1. Install the browser extension from ```about:addons``` with ```install from file```
