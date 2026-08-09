@@ -34,10 +34,9 @@ JWT_SECRET=write-long-secret-text
 
 
 **Client Side**
-1. Install the browser extension from ```about:addons``` with ```install from file```
-2. The app surfaces questions at scheduled intervals so you never forget how to solve even the ones you struggle with.
-3. Solve them as a PDF or directly within the app.
-4. A ready-made prompt is attached to the question photo for AI analysis, and you can share it with apps like Gemini or ChatGPT.
+For Firefox:
+1. Install the [browser extension](https://github.com/AyazOzk/Sendy/releases/tag/publish) from ```about:addons``` with ```install from file```
+For Android:
 
 ## Installation
 <p align="center">
