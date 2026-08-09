@@ -4,7 +4,7 @@
 <p align="center">
   <img src="backend/public/icon.png" width="200"/>
 </p>
-Flash Questions is a Flutter application that lets you archive your questions digitally and study them using the spaced repetition method.
+Cross-device link chat: Send links to your own server with one click, see them instantly on all devices.
 
 ## Features
 
