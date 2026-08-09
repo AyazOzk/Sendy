@@ -52,7 +52,7 @@ curl http://your_ip:4000/api/messages -X POST -H "Authorization: Bearer your_tok
 ```
 Bash:
 ```
-curl http://your_ip:4000/api/messages -X POST -H "Authorization: Bearer your_token" -H "Content-Type: application/json" -d '{"text": "merhaba"}'
+curl http://your_ip:4000/api/messages -X POST -H "Authorization: Bearer your_token" -H "Content-Type: application/json" -d '{"text": "hi"}'
 ```
 6. While you're on the site you want to share from your browser, just select the http shortcut from the share menu. It will send the link directly.
 
