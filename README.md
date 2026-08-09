@@ -40,7 +40,7 @@ For Firefox:
    
 For Android:
 1. Download [HTTP Shortcuts](https://github.com/Waboodoo/HTTP-Shortcuts)
-2. Download [HTTP Shortcuts config]([https://github.com/AyazOzk/Sendy/blob/main/http%20shortcuts%20example.zip](https://github.com/AyazOzk/Sendy/blob/main/shortcuts.json))
+2. Download [HTTP Shortcuts config](https://github.com/AyazOzk/Sendy/blob/main/shortcuts.json)
 3. Import your shortcuts.json
 4. Edit IP and Token fields.
 Token find scripts:
