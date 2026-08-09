@@ -39,7 +39,11 @@ For Firefox:
 1. Install the [browser extension](https://github.com/AyazOzk/Sendy/releases/tag/publish) from ```about:addons``` with ```install from file```
    
 For Android:
-Download
+1. Download [HTTP Shortcuts](https://github.com/Waboodoo/HTTP-Shortcuts)
+2. Download [HTTP Shortcuts config]([https://github.com/AyazOzk/Sendy/blob/main/http%20shortcuts%20example.zip](https://github.com/AyazOzk/Sendy/blob/main/shortcuts.json))
+3. Import your shortcuts.json
+4. Edit IP and Token fields.
+5. While you're on the site you want to share from your browser, just select the http shortcut from the share menu. It will send the link directly.
 
 ## Installation
 <p align="center">
