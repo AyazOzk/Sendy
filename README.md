@@ -1,5 +1,3 @@
-
-Cross-device link chat: Send links to your own server with one click, see them instantly on all devices.
 ---
 
 # Sendy
