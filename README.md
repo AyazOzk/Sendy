@@ -29,6 +29,7 @@ Cross-device link chat: Send links to your own server with one click, see them i
 PORT=4000
 JWT_SECRET=write-long-secret-text
 ```
+3. Use ```npm install``` in the backend folder. Then start the server with ```npm start```.
 
 
 
