@@ -8,10 +8,10 @@ Cross-device link chat: Send links to your own server with one click, see them i
 
 ## Features
 
-- 📚 Upload questions and build your archive
-- 🔁 Spaced repetition
-- 📄 Solve questions in bulk, export as PDF
-- 🔍 AI-powered question analysis and similar question generation (redirects to Gemini, ChatGPT, etc.)
+- Send and receive messages from a single extension across all devices.
+- Easily share links.
+- Easily export/import chats.
+- Server-side thumbnail support.
 
 ## How It Works?
 
