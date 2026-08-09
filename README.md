@@ -12,7 +12,7 @@ Cross-device link chat: Send links to your own server with one click, see them i
 - **Effortless Link Sharing:** Share links seamlessly with just one click.
 - **Server-Side Thumbnails:** Automatically fetches and securely stores cover images and metadata for your shared links.
 - **Import & Export:** Easily backup your entire chat history (including images) to a `.zip` file and restore it anywhere.
-- **Device Support:** Comes with a fully compatible browser extension for Firefox. & Android support (not just firefox mobile).
+- **Device Support:** Comes with a fully compatible browser extension for Firefox. & Android support (**not just firefox mobile via [HTTP Shortcuts](https://github.com/Waboodoo/HTTP-Shortcuts).**).
 - **The Perfect Opera Flow Alternative:** Enjoy the exact same seamless experience as Opera's "My Flow", but with 100% privacy and full control over your own self-hosted data.
 
 
@@ -39,6 +39,7 @@ For Firefox:
 1. Install the [browser extension](https://github.com/AyazOzk/Sendy/releases/tag/publish) from ```about:addons``` with ```install from file```
    
 For Android:
+Download
 
 ## Installation
 <p align="center">
