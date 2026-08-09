@@ -25,10 +25,10 @@ Cross-device link chat: Send links to your own server with one click, see them i
 1. Download ```backend``` file.
 2. Unzip in your server, then create a new ```.env``` file. Fill it with ```.env.example``` and edit.
 [b].env.example:[/b]
-[code]
+```
 PORT=4000
 JWT_SECRET=write-long-secret-text
-[/code]
+```
 
 
 
