@@ -56,28 +56,6 @@ curl http://your_ip:4000/api/messages -X POST -H "Authorization: Bearer your_tok
 ```
 6. While you're on the site you want to share from your browser, just select the http shortcut from the share menu. It will send the link directly.
 
-## Installation
-<p align="center">
-  <a href="https://github.com/AyazOzk/FlashQuestions/releases/latest/download/app-release.apk">
-    <img src="https://img.shields.io/badge/Download-APK-green?style=for-the-badge&logo=android" />
-  </a>
-  <img src="https://img.shields.io/github/stars/AyazOzk/FlashQuestions?style=for-the-badge" />
-  <img src="https://img.shields.io/github/last-commit/AyazOzk/FlashQuestions?style=for-the-badge" />
-</p>
-
-#
-<p align="center">
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
-</p>
-
-<p align="center">
-  <img src="https://files.catbox.moe/lcopt4.jpg" width="23%" />
-  <img src="https://files.catbox.moe/ti620c.jpg" width="23%" />
-  <img src="https://files.catbox.moe/ylstql.jpg" width="23%" />
-  <img src="https://files.catbox.moe/vlqc1f.jpg" width="23%" />
-</p>
-
 ## Licence
 
 This project is licensed under the GNU General Public License v3.0.
