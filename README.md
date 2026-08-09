@@ -12,6 +12,9 @@ Cross-device link chat: Send links to your own server with one click, see them i
 - Easily share links.
 - Easily export/import chats.
 - Server-side thumbnail support.
+- Android support
+- Firefox Support
+- OperaFlow alternative
 
 ## How It Works?
 
