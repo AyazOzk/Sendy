@@ -12,12 +12,12 @@ Cross-device link chat: Send links to your own server with one click, see them i
 - **Effortless Link Sharing:** Share links seamlessly with just one click.
 - **Server-Side Thumbnails:** Automatically fetches and securely stores cover images and metadata for your shared links.
 - **Import & Export:** Easily backup your entire chat history (including images) to a `.zip` file and restore it anywhere.
-- **Android & Mobile Support:** Access your chat on the go through a beautifully responsive web interface.
-- **Firefox Support:** Comes with a fully compatible browser extension for Firefox.
+- **Device Support:** Comes with a fully compatible browser extension for Firefox. & Android support.
 - **The Perfect Opera Flow Alternative:** Enjoy the exact same seamless experience as Opera's "My Flow", but with 100% privacy and full control over your own self-hosted data.
 
 
 ## Requirements
+- **Node.js** (v18.0 or higher recommended)
 
 ## How to Install?
 
