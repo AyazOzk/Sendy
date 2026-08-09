@@ -1,8 +1,8 @@
 
-Sendy ~ Cross-device link chat: Send links to your own server with one click, see them instantly on all devices.
+Cross-device link chat: Send links to your own server with one click, see them instantly on all devices.
 ---
 
-# Flash Questions
+# Sendy
 <p align="center">
   <img src="assets/logo.png" width="200"/>
 </p>
