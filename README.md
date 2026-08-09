@@ -43,7 +43,18 @@ For Android:
 2. Download [HTTP Shortcuts config]([https://github.com/AyazOzk/Sendy/blob/main/http%20shortcuts%20example.zip](https://github.com/AyazOzk/Sendy/blob/main/shortcuts.json))
 3. Import your shortcuts.json
 4. Edit IP and Token fields.
-5. While you're on the site you want to share from your browser, just select the http shortcut from the share menu. It will send the link directly.
+Token find scripts:
+Powershell:
+```
+curl http://your_ip:4000/api/messages -X POST -H "Authorization: Bearer your_token" -H "Content-Type: application/json" -d "{
+  \"text\": \"\"
+}"
+```
+Bash:
+```
+curl http://your_ip:4000/api/messages -X POST -H "Authorization: Bearer your_token" -H "Content-Type: application/json" -d '{"text": "merhaba"}'
+```
+6. While you're on the site you want to share from your browser, just select the http shortcut from the share menu. It will send the link directly.
 
 ## Installation
 <p align="center">
