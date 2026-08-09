@@ -1,0 +1,47 @@
+{
+  "categories": [
+    {
+      "id": "ca82cb82-b976-4699-b1d6-374f9297b7d2",
+      "name": "Kısayollar",
+      "shortcuts": [
+        {
+          "bodyContent": "{\n  \"text\": \"{{b827c4da-53ed-4dc0-8ebc-247a26a85462}}\"\n}",
+          "contentType": "application/json",
+          "headers": [
+            {
+              "key": "Authorization",
+              "value": "Bearer your_token"
+            }
+          ],
+          "iconName": "flat_color_megaphone2",
+          "id": "c92c9675-cbdb-4605-bf51-50199aac275d",
+          "method": "POST",
+          "name": "Sendy",
+          "responseHandling": {
+            "actions": [
+              "rerun",
+              "share",
+              "save"
+            ],
+            "successMessage": "{{b827c4da-53ed-4dc0-8ebc-247a26a85462}} sended",
+            "successOutput": "message",
+            "uiType": "notification"
+          },
+          "url": "http://your_ip_adress:4000/api/messages"
+        }
+      ]
+    }
+  ],
+  "compatibilityVersion": 90,
+  "createdAt": "2026-08-09T14:23:10.256054Z",
+  "originDeviceId": "8D71J3GPKJ",
+  "variables": [
+    {
+      "id": "b827c4da-53ed-4dc0-8ebc-247a26a85462",
+      "isShareText": true,
+      "key": "link",
+      "type": "text"
+    }
+  ],
+  "version": 91
+}
