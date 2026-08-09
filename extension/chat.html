@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sendy Chat</title>
+  <link rel="stylesheet" href="chat.css" />
+</head>
+<body>
+  
+  <div id="chatView">
+    <header>
+      <span class="title"><img src="icons/icon48.png" alt="Sendy">Sendy</span>
+      <div style="display:flex; gap:8px; align-items:center;">
+        <button id="darkModeBtn" class="dark-mode-toggle" title="Toggle Dark Mode">🌙</button>
+        <button id="clearBtn" class="header-btn danger" title="Clear All Chat">🗑️ Clear</button>
+        <button id="importBtn" class="header-btn" title="Import Messages">📥 Import</button>
+        <input type="file" id="importInput" accept=".zip" style="display:none;" />
+        <button id="exportBtn" class="header-btn" title="Export Messages">📤 Export</button>
+        <button id="settingsBtn" class="header-btn">⚙ Settings</button>
+      </div>
+    </header>
+
+    <div class="search-bar-container">
+      <input type="text" id="searchInput" placeholder="🔍 Search name, description or link..." />
+    </div>
+
+    <main id="messages"></main>
+
+    <footer>
+      <textarea id="composer" placeholder="Type message or paste link..."></textarea>
+      <button id="sendBtn">Send</button>
+    </footer>
+  </div>
+
+  <script src="chat.js"></script>
+</body>
+</html>

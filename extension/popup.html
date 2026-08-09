@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sendy</title>
+  <link rel="stylesheet" href="chat.css" />
+  <style>
+    body {
+      width: 320px;
+      padding: 16px;
+      display: block;
+      overflow-y: auto;
+      height: auto;
+    }
+    .popup-card {
+      background: var(--panel-bg);
+      border-radius: 16px;
+      padding: 16px;
+      box-shadow: 0 4px 20px var(--shadow-color);
+      text-align: center;
+      transition: background 0.3s, box-shadow 0.3s;
+    }
+    .popup-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+    textarea {
+      width: 100%;
+      min-height: 80px;
+      resize: vertical;
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+      background: var(--bg-color);
+      color: var(--text-primary);
+      padding: 12px;
+      font-size: 14px;
+      outline: none;
+      transition: border-color 0.2s, background 0.3s;
+    }
+    textarea:focus { border-color: var(--accent-blue); }
+    .btn-row { display: flex; flex-direction: column; gap: 8px; margin-top: 12px; }
+    #status { font-size: 12px; margin-top: 8px; min-height: 14px; }
+  </style>
+</head>
+<body>
+  
+  <div class="popup-card">
+    <div class="popup-header">
+      <div class="logo" style="margin:0; font-size: 20px;"><img src="icons/icon48.png" alt="Sendy" style="width:24px;height:24px;"> Sendy</div>
+      <button id="darkModeBtn" class="dark-mode-toggle" title="Toggle Dark Mode">🌙</button>
+    </div>
+
+    <div id="loggedArea">
+      <textarea id="msgInput" placeholder="Type message or paste link..."></textarea>
+      <div class="btn-row">
+        <button id="sendBtn" class="primary">Send</button>
+        <button id="sendTabBtn" class="secondary">＋ Send this tab</button>
+        <button id="openChatBtn" class="secondary" style="background:var(--bg-color);">💬 Open Chat</button>
+      </div>
+      <div id="status"></div>
+    </div>
+
+    <div id="notLoggedIn" hidden>
+      <p style="margin-bottom:12px; color:var(--text-secondary); font-size:14px;">Not logged in.</p>
+      <button id="openOptionsBtn" class="primary">Open Settings</button>
+    </div>
+  </div>
+
+  <button id="settingsBtn" class="header-btn" style="width:100%; margin-top:12px; background:transparent;">⚙ Settings</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>

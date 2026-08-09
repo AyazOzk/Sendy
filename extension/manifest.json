@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Sendy - Cross-Device Link Chat with Your Own Server",
+  "version": "1.0.0",
+  "author": "github/AyazOzk",
+  "description": "Cross-device link chat: Send links to your own server with one click, see them instantly on all devices.",
+  "permissions": ["contextMenus", "storage", "activeTab", "notifications"],
+  "optional_host_permissions": ["<all_urls>"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src http://*:* https://*:* ws://*:* wss://*:* 'self'; img-src * data: blob:;"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "sendy@ayazozk.github.com",
+      "strict_min_version": "115.0"
+    }
+  }
+}

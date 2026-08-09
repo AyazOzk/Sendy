@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sendy Settings</title>
+  <link rel="stylesheet" href="chat.css" />
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    #loggedInBox { display: none; text-align: left; margin-top: 20px; padding-top: 20px; border-top: 1px solid var(--border-color); }
+    .session-item { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--bg-color); }
+    .session-info strong { display: block; color: var(--text-primary); }
+    .session-info small { color: var(--text-secondary); }
+    .revoke-btn { background: #ff3b30; color: white; border: none; border-radius: 8px; padding: 6px 10px; font-size: 11px; cursor: pointer; flex: none; margin-left: 10px; }
+  </style>
+</head>
+<body>
+  <button id="darkModeBtn" class="dark-mode-toggle" title="Toggle Dark Mode" style="position:absolute; top:20px; right:20px;">🌙</button>
+
+  <div class="login-card">
+    <div class="logo"><img src="icons/icon48.png" alt="Sendy"> Sendy Settings</div>
+    <p class="subtitle">Configure your self-hosted server</p>
+
+    <div class="input-group">
+      <label>Server Address</label>
+      <input id="serverUrl" placeholder="http://192.168.1.50:4000" />
+    </div>
+
+    <div class="input-group">
+      <label>Email</label>
+      <input id="email" type="email" placeholder="example@mail.com" />
+    </div>
+    
+    <div class="input-group">
+      <label>Password</label>
+      <input id="password" type="password" placeholder="••••••••" />
+    </div>
+
+    <div id="status"></div>
+
+    <div class="btn-group">
+      <button id="loginBtn" class="primary">Login</button>
+      <button id="registerBtn" class="secondary">Register</button>
+    </div>
+
+    <div id="loggedInBox">
+      <p style="margin-bottom: 10px; font-size:14px;">Logged in as: <strong id="loggedEmail"></strong></p>
+      <button id="logoutBtn" class="secondary">Logout</button>
+      
+      <div id="sessionsList" style="margin-top:20px;">
+        <strong style="display:block; margin-bottom:10px; font-size:14px;">Active Devices:</strong>
+        <div id="sessionsContainer"></div>
+      </div>
+    </div>
+
+    <div style="text-align: center; margin-top: 25px; font-size: 13px; color: var(--text-secondary); font-weight: 500;">Designed By Ayaz &lt;3</div>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>
